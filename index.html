@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+    <!-- First time using tailwindcss, and I have to say that it's way nicer to use than a standard css file; but that's just me... -->
+<body class="bg-[url(/images/bg-img.webp)] bg-cover">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 drop-shadow-2xl w-fit py-2.5 px-20 bg-[#ffffffd0]">
+    <div class="p-5">
+    <img class="size-30 ml-auto mr-auto drop-shadow-2xl" src="images/tut-logo.svg" alt="Tshwane University of Technology logo">
+  </div>
+    <table class="text-center">
+        <tr>
+            <td><b>iEnabler Login</b></td>
+        </tr>
+        <tr>
+            <td class="p-3">
+                <form>
+                    <input type="radio" name="login-type" value="student" id="student">
+                    <label for="student">Student</label>
+                    
+                    <input type="radio" name="login-type" value="personnel" id="personnel">
+                    <label for="personnel">Personnel</label>
+                    
+                    <input type="radio" name="login-type" value="other" id="other">
+                    <label for="other">Other</label>
+                    
+                    <input type="radio" name="login-type" value="alumni" id="alumni">
+                    <label for="alumni">Alumni</label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="p-3">
+                <label for="student-number"><b>Student Number:</b></label>
+                <br>
+                <input class="text-center border-black border-b px-10 py-1" type="text" minlength="8" name="student-number" id="student-number" required>
+            </td>
+        </tr>
+        <tr>
+            <td  class="p-3">
+                <label for="pin"><b>PIN:</b></label>
+                <br>
+                <input class="text-center border-black border-b py-1" type="password" minlength="5" maxlength="5" name="pin" id="pin" required>
+                <p>(5 numeric digits. Do not start with a 0.)</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="p-3">
+                <a href="#">
+                    <div class="border w-fit mx-auto hover:bg-[blue]">
+                        <p class="py-1 px-3">Login</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+    </div>
+  </div>
+  <div class="bg-[#000000d0] fixed w-screen bottom-0 p-3">
+    <ul class="text-white drop-shadow-2xl list-none flex gap-3 justify-center underline">
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Disclaimer</a>
+        </li>
+        <li>
+            <a href="#">Terms & Conditions</a>
+        </li>
+        <li>
+            <a href="#">Privacy & Security Statement</a>
+        </li>
+        <li>
+            <a href="#">Powered By</a>
+        </li>
+    </ul>
+</body>
+</html>
