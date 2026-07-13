@@ -2,6 +2,8 @@
 
 A visually improved version of the Tshwane University of Technology's Integrated Tertiary Software (ITS) page.
 
+<img width="960" height="517" align="center" alt="image" src="https://github.com/user-attachments/assets/b93bd551-6bcd-4a3b-82bd-992f6bdb7449" />
+
 ## Description
 
 The current ITS page is visually unorganized, with absurd CSS alignment and positioning. The page also looks very stale and dated, not to mention the lack of simple design principles that could very easily make it look much better. Partially inspired by the Stellenbosch University (SU) login page, this personal version makes use of Tailwind CSS for a more modern implementation.
